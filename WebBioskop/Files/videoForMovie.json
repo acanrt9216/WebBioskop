@@ -1,0 +1,35 @@
+{
+  "id": 508442,
+  "results": [
+    {
+      "id": "5dc426196818880010bbe17c",
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "4TojlZYqPUo",
+      "name": "Official Teaser Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Teaser"
+    },
+    {
+      "id": "5ef4b418c3bffe00346dd742",
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "xOsLIiBStEs",
+      "name": "Official Trailer",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer"
+    },
+    {
+      "id": "5f879e4b72a2c90034adf850",
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "Gs--6c7Hn_A",
+      "name": "Disney and Pixar’s Soul | Official Trailer 2 | Disney+",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer"
+    }
+  ]
+}

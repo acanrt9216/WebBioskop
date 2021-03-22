@@ -1,0 +1,425 @@
+[
+    {
+      "backdrop_path": "/jC1KqsFx8ZyqJyQa2Ohi7xgL7XC.jpg",
+      "first_air_date": "2014-10-07",
+      "genre_ids": [
+        18,
+        10765
+      ],
+      "id": 60735,
+      "name": "The Flash",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Flash",
+      "overview": "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+      "popularity": 1441.576,
+      "poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+      "vote_average": 7.6,
+      "vote_count": 7005,
+      "type": "upcoming"
+    },
+  {
+    "backdrop_path": "/colNDt09PACkwtCgWILJQ8i6vSR.jpg",
+    "first_air_date": "2017-01-26",
+    "genre_ids": [
+      9648,
+      18,
+      80
+    ],
+    "id": 69050,
+    "name": "Riverdale",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Riverdale",
+    "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale’s wholesome facade.",
+    "popularity": 1214.353,
+    "poster_path": "/wRbjVBdDo5qHAEOVYoMWpM58FSA.jpg",
+    "vote_average": 8.6,
+    "vote_count": 10484,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/gmbsR4SvYhhj4SvLAlTKxIkFxp9.jpg",
+    "first_air_date": "2021-02-23",
+    "genre_ids": [
+      10759,
+      10765
+    ],
+    "id": 95057,
+    "name": "Superman & Lois",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Superman & Lois",
+    "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
+    "popularity": 1007.703,
+    "poster_path": "/6SJppowm7cdQgLkvoTlnTUSbjr9.jpg",
+    "vote_average": 8.4,
+    "vote_count": 452,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/uro2Khv7JxlzXtLb8tCIbRhkb9E.jpg",
+    "first_air_date": "2010-10-31",
+    "genre_ids": [
+      10759,
+      18,
+      10765
+    ],
+    "id": 1402,
+    "name": "The Walking Dead",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Walking Dead",
+    "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+    "popularity": 940.997,
+    "poster_path": "/rqeYMLryjcawh2JeRpCVUDXYM5b.jpg",
+    "vote_average": 8,
+    "vote_count": 10115,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/edmk8xjGBsYVIf4QtLY9WMaMcXZ.jpg",
+    "first_air_date": "2005-03-27",
+    "genre_ids": [
+      18
+    ],
+    "id": 1416,
+    "name": "Grey's Anatomy",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Grey's Anatomy",
+    "overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+    "popularity": 843.206,
+    "poster_path": "/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
+    "vote_average": 8.2,
+    "vote_count": 5505,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/mZjZgY6ObiKtVuKVDrnS9VnuNlE.jpg",
+    "first_air_date": "2017-09-25",
+    "genre_ids": [
+      18
+    ],
+    "id": 71712,
+    "name": "The Good Doctor",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Good Doctor",
+    "overview": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives",
+    "popularity": 725.137,
+    "poster_path": "/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
+    "vote_average": 8.6,
+    "vote_count": 7056,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/fRYwdeNjMqC30EhofPx5PlDpdun.jpg",
+    "first_air_date": "2018-10-25",
+    "genre_ids": [
+      10765,
+      18
+    ],
+    "id": 79460,
+    "name": "Legacies",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Legacies",
+    "overview": "In a place where young witches, vampires, and werewolves are nurtured to be their best selves in spite of their worst impulses, Klaus Mikaelson’s daughter, 17-year-old Hope Mikaelson, Alaric Saltzman’s twins, Lizzie and Josie Saltzman, among others, come of age into heroes and villains at The Salvatore School for the Young and Gifted.",
+    "popularity": 520.71,
+    "poster_path": "/qTZIgXrBKURBK1KrsT7fe3qwtl9.jpg",
+    "vote_average": 8.6,
+    "vote_count": 1685,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/2s6eEUCzGhRl0yef4VGcHNKpKvy.jpg",
+    "first_air_date": "2019-10-11",
+    "genre_ids": [
+      9648
+    ],
+    "id": 93693,
+    "name": "Are You Afraid of the Dark?",
+    "origin_country": [
+
+    ],
+    "original_language": "en",
+    "original_name": "Are You Afraid of the Dark?",
+    "overview": "Each season of this horror anthology series follows a different group of kids, members of the Midnight Society, as they discover terrifying curses and creatures.",
+    "popularity": 446.601,
+    "poster_path": "/seCdnVx50nhHmDqaC6QEYM3jSG3.jpg",
+    "vote_average": 7.5,
+    "vote_count": 133,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/JB17sIsU53NuWVUecOwrCA0CUp.jpg",
+    "first_air_date": "2021-03-19",
+    "genre_ids": [
+      10765,
+      10759,
+      18
+    ],
+    "id": 88396,
+    "name": "The Falcon and the Winter Soldier",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Falcon and the Winter Soldier",
+    "overview": "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
+    "popularity": 368.779,
+    "poster_path": "/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
+    "vote_average": 8.5,
+    "vote_count": 12,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/uY3MJohUpY7UMMTK90BIhX5txEs.jpg",
+    "first_air_date": "2017-04-30",
+    "genre_ids": [
+      18,
+      9648,
+      10765
+    ],
+    "id": 46639,
+    "name": "American Gods",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "American Gods",
+    "overview": "An ex-con becomes the traveling partner of a conman who turns out to be one of the older gods trying to recruit troops to battle the upstart deities. Based on Neil Gaiman's fantasy novel.",
+    "popularity": 341.608,
+    "poster_path": "/3KCAZaKHmoMIN9dHutqaMtubQqD.jpg",
+    "vote_average": 7.1,
+    "vote_count": 986,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/hpU2cHC9tk90hswCFEpf5AtbqoL.jpg",
+    "first_air_date": "1989-12-17",
+    "genre_ids": [
+      10751,
+      16,
+      35
+    ],
+    "id": 456,
+    "name": "The Simpsons",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Simpsons",
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "popularity": 306.923,
+    "poster_path": "/2IWouZK4gkgHhJa3oyYuSWfSqbG.jpg",
+    "vote_average": 7.8,
+    "vote_count": 6199,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/8vNQ3i2Xa3mrCKn6eq2ce5hhegT.jpg",
+    "first_air_date": "2019-10-06",
+    "genre_ids": [
+      10759,
+      10765,
+      9648,
+      80
+    ],
+    "id": 89247,
+    "name": "Batwoman",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Batwoman",
+    "overview": "Kate Kane, armed with a passion for social justice and a flair for speaking her mind, soars onto the streets of Gotham as Batwoman, an out lesbian and highly trained street fighter primed to snuff out the failing city's criminal resurgence. But don't call her a hero yet. In a city desperate for a savior, Kate must overcome her own demons before embracing the call to be Gotham's symbol of hope",
+    "popularity": 325.798,
+    "poster_path": "/xjyEpcuDbB1jy0ehNQMBiO8KOdr.jpg",
+    "vote_average": 7.3,
+    "vote_count": 967,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/yvKrycViRMQcIgdnjsM5JGNWU4Q.jpg",
+    "first_air_date": "2013-04-07",
+    "genre_ids": [
+      10765,
+      16,
+      10759
+    ],
+    "id": 1429,
+    "name": "Attack on Titan",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "進撃の巨人",
+    "overview": "Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest Titans. Flash forward to the present and the city has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a Colossal Titan that appears out of thin air. As the smaller Titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single Titan and take revenge for all of mankind.",
+    "popularity": 287.363,
+    "poster_path": "/aiy35Evcofzl7hASZZvsFgltHTX.jpg",
+    "vote_average": 8.7,
+    "vote_count": 2971,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/s2IXx944vnZUtAxC2nPydOfqakh.jpg",
+    "first_air_date": "2021-01-21",
+    "genre_ids": [
+      10759
+    ],
+    "id": 99121,
+    "name": "Walker",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Walker",
+    "overview": "Reboot of the 1993 series focusing on Walker as he returns from years undercover. A widower and father of two, he begins fighting crime with a new partner, who is one of the only female Rangers in history.",
+    "popularity": 281.616,
+    "poster_path": "/y4VHQbbY1UcAjHN7UTGu0MGyVl2.jpg",
+    "vote_average": 7,
+    "vote_count": 37,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/lthkKBLe1rX6iThgVFg22O02sJw.jpg",
+    "first_air_date": "2020-10-03",
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "id": 95479,
+    "name": "Jujutsu Kaisen",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "呪術廻戦",
+    "overview": "With his days numbered, high schooler Yuji decides to hunt down and consume the remaining 19 fingers of a deadly curse so it can die with him.",
+    "popularity": 278.874,
+    "poster_path": "/g1rK2nRXSidcMwNliWDIroWWGTn.jpg",
+    "vote_average": 8.5,
+    "vote_count": 699,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/2fhU42I8pPdvEKfrZtuJ8KrzdeF.jpg",
+    "first_air_date": "2020-05-17",
+    "genre_ids": [
+      10765
+    ],
+    "id": 79680,
+    "name": "Snowpiercer",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Snowpiercer",
+    "overview": "Set more than seven years after the world has become a frozen wasteland, the remnants of humanity inhabit a gigantic, perpetually-moving train that circles the globe as class warfare, social injustice and the politics of survival play out.",
+    "popularity": 241.965,
+    "poster_path": "/95xQPSqwvQDRoB3rXUn4lRyJrBW.jpg",
+    "vote_average": 7.4,
+    "vote_count": 547,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/jWXrQstj7p3Wl5MfYWY6IHqRpDb.jpg",
+    "first_air_date": "1952-12-26",
+    "genre_ids": [
+      10763
+    ],
+    "id": 94722,
+    "name": "Tagesschau",
+    "origin_country": [
+      "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Tagesschau",
+    "overview": "German daily news program, the oldest still existing program on German television.",
+    "popularity": 248.084,
+    "poster_path": "/7dFZJ2ZJJdcmkp05B9NWlqTJ5tq.jpg",
+    "vote_average": 5.3,
+    "vote_count": 4,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/qPO43E0tnw9Gjh9EzkNmc3AKlE3.jpg",
+    "first_air_date": "2018-03-22",
+    "genre_ids": [
+      10759,
+      18
+    ],
+    "id": 76773,
+    "name": "Station 19",
+    "origin_country": [
+      "US"
+    ],
+    "original_language": "en",
+    "original_name": "Station 19",
+    "overview": "A group of heroic firefighters at Seattle Fire Station 19—from captain to newest recruit—risk their lives and hearts both in the line of duty and off the clock. These brave men and women are like family, literally and figuratively, and together they put their own lives in jeopardy as first responders to save the lives of others.",
+    "popularity": 212.862,
+    "poster_path": "/lcuCED5Ky2uM5VE6wILOwt5FEb0.jpg",
+    "vote_average": 8.2,
+    "vote_count": 704,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/nHo00WxAVUtnalEkIOJrPUOrkBL.jpg",
+    "first_air_date": "2021-01-25",
+    "genre_ids": [
+      10766
+    ],
+    "id": 117422,
+    "name": "Dos vidas",
+    "origin_country": [
+      "ES"
+    ],
+    "original_language": "es",
+    "original_name": "Dos vidas",
+    "overview": "The story of Julia, a woman currently living out the life that her mother and future husband have planned for her. But just as she is about to get married, she discovers a great family secret that will change her forever. On the verge of a nervous breakdown, she decides to get away and finds refuge in a secluded town in the mountains of Madrid where she will have a complicated mission: to take control of her own destiny.",
+    "popularity": 212.684,
+    "poster_path": "/gr4mvVThwX2lXajmScgzLKYcccS.jpg",
+    "vote_average": 5.5,
+    "vote_count": 2,
+    "type": "upcoming"
+  },
+  {
+    "backdrop_path": "/xlKKD1TXJvh0YYlVPqqQ3g3ZUjM.jpg",
+    "first_air_date": "2018-07-01",
+    "genre_ids": [
+      16,
+      10759,
+      10765
+    ],
+    "id": 80020,
+    "name": "Super Dragon Ball Heroes",
+    "origin_country": [
+      "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "スーパードラゴンボールヒーローズ",
+    "overview": "Trunks returns from the future to train with Goku and Vegeta. However, it disappears without warning. Then the mysterious Fu bursts in, telling them that Trunks has been imprisoned in the Prison Planet, a mysterious complex in an unknown place in the universes. The group seeks the dragon balls to free Trunks, but an endless battle awaits them! Will Goku and the others rescue Trunks and escape the Prison Planet?",
+    "popularity": 196.329,
+    "poster_path": "/jYeTfpxS3IzgqKkYCjmdCKwq8PW.jpg",
+    "vote_average": 7.6,
+    "vote_count": 1741,
+    "type": "upcoming"
+  }
+  ]

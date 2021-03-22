@@ -1,0 +1,149 @@
+﻿@model WebBioskop.Models.Collection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebBioskop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <style>
+            /* width */
+            ::-webkit-scrollbar {
+                width: 10px;
+                height: 10px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 5px 0 5px gray;
+                border-radius: 10px;
+                
+            }
+
+            /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #eeae01;
+            border-radius: 10px;
+        }
+
+                /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #ee7202;
+            }
+        </style>
+</head>
+<body style="background-color:#262927;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/logo/WebBioskop-logos_transparent.png" width="150" height="120" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
+                    <ul class="navbar-nav nav-link flex-grow-1 justify-content-start">
+                        <li class="nav-item" style="padding-left:40px;">
+                            <a class="nav-link text-white mr-3" asp-area="" asp-controller="Home" asp-action="Index"><b>Home</b></a>
+                        </li>
+                        <li class="dropdown nav-item text-white" style="padding-left:20px;">
+                            @*<a href="#" id="genreMenu" class="dropdown-toggle text-white font-weight-bold" style="text-decoration:none;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                Genres
+                                <div aria-labelledby="genreMenu" class="dropdown-menu bg-dark text-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                @foreach (var item in Model.Genres)
+                                                {
+                                                    <a href="#" class="dropdown-item text-decoration-none mr-3">
+                                                        @Html.DisplayFor(model => item.name)
+                                                    </a>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>*@
+                            <a class="nav-link dropdown-toggle text-white mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <b>Genres</b>
+                            </a>
+                            <div class="dropdown-menu" style="background-color: #262927;" aria-labelledby="navbarDropdown">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div><h4 class="text-warning">Movies</h4><hr style="border-color:white;" /></div>
+                                            <div>
+                                                @foreach (var item in Model.Genres)
+                                                {
+                                                    <a class="dropdown-item text-white" href="/Movie/Genre/@item.id">
+                                                        @Html.DisplayFor(model => item.name)
+                                                    </a>
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div><h4 class="text-warning">Series</h4><hr style="border-color: white;"/></div>
+                                            <div>
+                                                @foreach (var item in Model.Genres)
+                                                {
+                                                    <a class="dropdown-item text-white" href="/Serie/Genre/@item.id">
+                                                        @Html.DisplayFor(model => item.name)
+                                                    </a>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </li>
+                        <li class="nav-item" style="padding-left:30px;">
+                            <a class="nav-link text-white mr-3" asp-area="" asp-controller="Movie" asp-action="Index"><b>Movies</b></a>
+                        </li>
+                        <li class="nav-item" style="padding-left:20px;">
+                            <a class="nav-link text-white pr-5" asp-area="" asp-controller="Serie" asp-action="Index"><b>Series</b></a>
+                        </li>
+                    </ul>
+                    <div class="input-group justify-content-end">
+                        
+
+                        <form class="d-inline" asp-action="Search" asp-controller="Home" method="get">
+                                    <input name="inputSrch" type="search" class="form-control" style="padding-left: 6px;width:230px;float:left;" />
+                                    <button type="submit" id="srchBtn" class="btn btn-warning" style="margin-right: 4px;">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                        </form>
+                            
+                    </div>
+                    <div style="width:4px; height:40px; background-color:black;margin-left:5px;">
+
+                    </div>
+                    <button type="button" class="btn btn-warning ml-2">
+                        <i class="fa fa-user" style="font-size:1.2em;"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - WebBioskop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/menu.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/slider.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
