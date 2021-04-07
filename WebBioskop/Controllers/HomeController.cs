@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -25,44 +26,44 @@ namespace WebBioskop.Controllers
             _logger = logger;
             _db = db;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var countMovies = _db.Movies.Count();
             if (countMovies == 0)
             {
                 writeMoviesToDB();
             }
-            IEnumerable<Movie> listMovies = _db.Movies;
+            var listMovies = _db.Movies;
             var countGenresMovies = _db.Genres.Count();
             if (countGenresMovies == 0)
             {
                 writeGenresMoviesToDB();
             }
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listGenres = _db.Genres;
             var countSeries = _db.Series.Count();
             if (countSeries == 0)
             {
                 writeSeriesToDB();
             }
-            IEnumerable<Serie> listSeries = _db.Series;
+            var listSeries = _db.Series;
 
             Collection col = new Collection();
-            col.Movies = listMovies;
-            col.Genres = listGenres;
-            col.Series = listSeries;
+            col.Movies =await listMovies.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
+            col.Series =await listSeries.ToListAsync();
             return View(col);
         }
         [HttpGet]
-        public IActionResult Search(string inputSrch)
+        public async Task<IActionResult> Search(string inputSrch)
         {
             ViewBag.inputSrch= inputSrch;
-            IEnumerable<Movie> listMovies = _db.Movies.Where(mov => mov.title.Contains(inputSrch)).ToList();
-            IEnumerable<Serie> listSeries = _db.Series.Where(ser => ser.name.Contains(inputSrch)).ToList();
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listMovies = _db.Movies.Where(mov => mov.title.Contains(inputSrch));
+            var listSeries = _db.Series.Where(ser => ser.name.Contains(inputSrch));
+            var listGenres = _db.Genres;
             Collection col = new Collection();
-            col.Movies = listMovies;
-            col.Series = listSeries;
-            col.Genres = listGenres;
+            col.Movies =await listMovies.ToListAsync();
+            col.Series =await listSeries.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
             return View(col);
         }
         

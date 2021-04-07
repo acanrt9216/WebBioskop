@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -17,35 +18,35 @@ namespace WebBioskop.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            IEnumerable<Serie> listSeries = _db.Series;
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listSeries = _db.Series;
+            var listGenres = _db.Genres;
             Collection col = new Collection();
-            col.Series = listSeries;
-            col.Genres = listGenres;
+            col.Series =await listSeries.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
 
             return View(col);
         }
         [HttpGet]
-        public IActionResult Review(int id)
+        public async Task<IActionResult> Review(int id)
         {
-            IEnumerable<Serie> lista = _db.Series.Where(m => m.serieId == id);
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var lista = _db.Series.Where(m => m.serieId == id);
+            var listGenres = _db.Genres;
             Collection col = new Collection();
-            col.Series = lista;
-            col.Genres = listGenres;
+            col.Series =await lista.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
             return View(col);
         }
         [HttpGet]
-        public IActionResult Genre(int id)
+        public async Task<IActionResult> Genre(int id)
         {
             ViewBag.id = id;
-            IEnumerable<Serie> listSeries = _db.Series.Where(m => m.genre_ids.Contains(id.ToString()));
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listSeries = _db.Series.Where(m => m.genre_ids.Contains(id.ToString()));
+            var listGenres = _db.Genres;
             Collection col = new Collection();
-            col.Series = listSeries;
-            col.Genres = listGenres;
+            col.Series =await listSeries.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
             return View(col);
         }
     }

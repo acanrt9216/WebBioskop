@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,37 +16,37 @@ namespace WebBioskop.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            IEnumerable<Movie> listMovies = _db.Movies;
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listMovies = _db.Movies;
+            var listGenres = _db.Genres;
+
             Collection col = new Collection();
-            col.Movies=listMovies;
-            col.Genres=listGenres;
-            return View(col); ;
-        }
-        [HttpGet]
-        public IActionResult Review(int id)
-        {
-            IEnumerable<Movie> lista= _db.Movies.Where(m => m.movieId == id);
-            IEnumerable<Genre> listGenres = _db.Genres;
-            Collection col = new Collection();
-            col.Movies = lista;
-            col.Genres = listGenres;
+            col.Movies=await listMovies.ToListAsync();
+            col.Genres=await listGenres.ToListAsync();
             return View(col);
         }
         [HttpGet]
-        public IActionResult Genre(int id)
+        public async Task<IActionResult> Review(int id)
+        {
+            var lista= _db.Movies.Where(m => m.movieId == id);
+            var listGenres = _db.Genres;
+            Collection col = new Collection();
+            col.Movies =await lista.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
+            return View(col);
+        }
+        [HttpGet]
+        public async Task<IActionResult> Genre(int id)
         {
             ViewBag.id = id;
-            IEnumerable<Movie> listMovies = _db.Movies.Where(m => m.genre_ids.Contains(id.ToString()));
-            IEnumerable<Genre> listGenres = _db.Genres;
+            var listMovies = _db.Movies.Where(m => m.genre_ids.Contains(id.ToString()));
+            var listGenres = _db.Genres;
             Collection col = new Collection();
-            col.Movies = listMovies;
-            col.Genres = listGenres;
+            col.Movies =await listMovies.ToListAsync();
+            col.Genres =await listGenres.ToListAsync();
             return View(col);
         }
-        
         
     }
 }

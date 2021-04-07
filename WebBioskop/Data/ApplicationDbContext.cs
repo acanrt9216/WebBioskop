@@ -11,7 +11,7 @@ namespace WebBioskop.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Serie> Series { get; set; }
